@@ -123,3 +123,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export PATH="/home/prime/anaconda3/bin:$PATH"
+
